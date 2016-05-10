@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  CountryListTableViewController.h
 //  funfactspractice
 //
 //  Created by Janet Lustgarten on 5/6/16.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface CountryListTableViewController : UITableViewController
 
 @end
-
