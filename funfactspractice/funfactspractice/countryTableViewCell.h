@@ -10,4 +10,8 @@
 
 @interface countryTableViewCell : UITableViewCell
 
+@property (weak, nonatomic) IBOutlet UIImageView *flagimageview;
+@property (weak, nonatomic) IBOutlet UILabel *countrynamelabel;
+@property (weak, nonatomic) IBOutlet UILabel *rankinglabel;
+
 @end

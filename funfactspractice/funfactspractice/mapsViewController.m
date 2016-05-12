@@ -8,7 +8,9 @@
 
 #import "mapsViewController.h"
 
-@interface mapsViewController ()
+@interface mapsViewController () <UIScrollViewDelegate>
+@property (weak, nonatomic) IBOutlet UIImageView *mapImage;
+@property (weak, nonatomic) IBOutlet UIScrollView *scrollView;
 
 @end
 
@@ -16,6 +18,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.view.backgroundColor = [UIColor colorWithRed:238.0f/255.0f green:204.0f/255.0f blue:204.0f/255.0f alpha:1.0];
+    self.mapImage.image = self.map;
+    self.scrollView.delegate = self;
     // Do any additional setup after loading the view.
 }
 
@@ -24,14 +29,8 @@
     // Dispose of any resources that can be recreated.
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+-(UIView *)viewForZoomingInScrollView:(UIScrollView *)scrollView {
+        return self.mapImage;   
 }
-*/
 
 @end

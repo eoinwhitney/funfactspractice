@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MainViewController.h"
+#import "ENWCountries.h"
+
 
 @interface countryViewController : UIViewController
+@property (strong, nonatomic) ENWCountries *selectedCountry;
+
 
 @end

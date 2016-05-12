@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B0340911CE2510C0024184C /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B0340901CE2510C0024184C /* MainViewController.m */; };
+		7B0340941CE29CE20024184C /* countryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B0340931CE29CE20024184C /* countryViewController.m */; };
+		7BC0A2251CE3B3BD005FB0E6 /* exploreTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC0A2241CE3B3BD005FB0E6 /* exploreTableViewController.m */; };
+		7BC0A2281CE3B947005FB0E6 /* mapsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC0A2271CE3B947005FB0E6 /* mapsViewController.m */; };
+		7BD4A3051CDD4D3000516B98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BD4A3041CDD4D3000516B98 /* Assets.xcassets */; };
 		7BD65D691CDD0B5B00C2B1BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BD65D681CDD0B5B00C2B1BC /* main.m */; };
 		7BD65D6C1CDD0B5B00C2B1BC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BD65D6B1CDD0B5B00C2B1BC /* AppDelegate.m */; };
-		7BD65D6F1CDD0B5B00C2B1BC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BD65D6E1CDD0B5B00C2B1BC /* ViewController.m */; };
 		7BD65D721CDD0B5B00C2B1BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BD65D701CDD0B5B00C2B1BC /* Main.storyboard */; };
 		7BD65D751CDD0B5B00C2B1BC /* funfactspractice.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7BD65D731CDD0B5B00C2B1BC /* funfactspractice.xcdatamodeld */; };
-		7BD65D771CDD0B5B00C2B1BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BD65D761CDD0B5B00C2B1BC /* Assets.xcassets */; };
 		7BD65D7A1CDD0B5B00C2B1BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BD65D781CDD0B5B00C2B1BC /* LaunchScreen.storyboard */; };
 		7BD65D851CDD0B5B00C2B1BC /* funfactspracticeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BD65D841CDD0B5B00C2B1BC /* funfactspracticeTests.m */; };
 		7BD65D901CDD0B5B00C2B1BC /* funfactspracticeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BD65D8F1CDD0B5B00C2B1BC /* funfactspracticeUITests.m */; };
+		7BD65D9F1CDD0DBD00C2B1BC /* ENWCountries.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BD65D9E1CDD0DBD00C2B1BC /* ENWCountries.m */; };
+		7BD65DAB1CDD464300C2B1BC /* countryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BD65DAA1CDD464300C2B1BC /* countryTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,15 +41,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7B03408F1CE2510C0024184C /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		7B0340901CE2510C0024184C /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		7B0340921CE29CE20024184C /* countryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = countryViewController.h; sourceTree = "<group>"; };
+		7B0340931CE29CE20024184C /* countryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = countryViewController.m; sourceTree = "<group>"; };
+		7BC0A2231CE3B3BD005FB0E6 /* exploreTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = exploreTableViewController.h; sourceTree = "<group>"; };
+		7BC0A2241CE3B3BD005FB0E6 /* exploreTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = exploreTableViewController.m; sourceTree = "<group>"; };
+		7BC0A2261CE3B947005FB0E6 /* mapsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mapsViewController.h; sourceTree = "<group>"; };
+		7BC0A2271CE3B947005FB0E6 /* mapsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mapsViewController.m; sourceTree = "<group>"; };
+		7BD4A3041CDD4D3000516B98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../../../project/ios-0216-team-popcorn/TeamPopcorn/TeamPopcorn/Assets.xcassets"; sourceTree = "<group>"; };
 		7BD65D641CDD0B5B00C2B1BC /* funfactspractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = funfactspractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BD65D681CDD0B5B00C2B1BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7BD65D6A1CDD0B5B00C2B1BC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7BD65D6B1CDD0B5B00C2B1BC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		7BD65D6D1CDD0B5B00C2B1BC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		7BD65D6E1CDD0B5B00C2B1BC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		7BD65D711CDD0B5B00C2B1BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7BD65D741CDD0B5B00C2B1BC /* funfactspractice.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = funfactspractice.xcdatamodel; sourceTree = "<group>"; };
-		7BD65D761CDD0B5B00C2B1BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7BD65D791CDD0B5B00C2B1BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7BD65D7B1CDD0B5B00C2B1BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7BD65D801CDD0B5B00C2B1BC /* funfactspracticeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = funfactspracticeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,6 +64,10 @@
 		7BD65D8B1CDD0B5B00C2B1BC /* funfactspracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = funfactspracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BD65D8F1CDD0B5B00C2B1BC /* funfactspracticeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = funfactspracticeUITests.m; sourceTree = "<group>"; };
 		7BD65D911CDD0B5B00C2B1BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BD65D9D1CDD0DBD00C2B1BC /* ENWCountries.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ENWCountries.h; sourceTree = "<group>"; };
+		7BD65D9E1CDD0DBD00C2B1BC /* ENWCountries.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ENWCountries.m; sourceTree = "<group>"; };
+		7BD65DA91CDD464300C2B1BC /* countryTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = countryTableViewCell.h; sourceTree = "<group>"; };
+		7BD65DAA1CDD464300C2B1BC /* countryTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = countryTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,10 +120,19 @@
 			children = (
 				7BD65D6A1CDD0B5B00C2B1BC /* AppDelegate.h */,
 				7BD65D6B1CDD0B5B00C2B1BC /* AppDelegate.m */,
-				7BD65D6D1CDD0B5B00C2B1BC /* ViewController.h */,
-				7BD65D6E1CDD0B5B00C2B1BC /* ViewController.m */,
 				7BD65D701CDD0B5B00C2B1BC /* Main.storyboard */,
-				7BD65D761CDD0B5B00C2B1BC /* Assets.xcassets */,
+				7BC0A2261CE3B947005FB0E6 /* mapsViewController.h */,
+				7BC0A2271CE3B947005FB0E6 /* mapsViewController.m */,
+				7BC0A2231CE3B3BD005FB0E6 /* exploreTableViewController.h */,
+				7BC0A2241CE3B3BD005FB0E6 /* exploreTableViewController.m */,
+				7B0340921CE29CE20024184C /* countryViewController.h */,
+				7B0340931CE29CE20024184C /* countryViewController.m */,
+				7B03408F1CE2510C0024184C /* MainViewController.h */,
+				7B0340901CE2510C0024184C /* MainViewController.m */,
+				7BD65DA91CDD464300C2B1BC /* countryTableViewCell.h */,
+				7BD65DAA1CDD464300C2B1BC /* countryTableViewCell.m */,
+				7BD65D9D1CDD0DBD00C2B1BC /* ENWCountries.h */,
+				7BD65D9E1CDD0DBD00C2B1BC /* ENWCountries.m */,
 				7BD65D781CDD0B5B00C2B1BC /* LaunchScreen.storyboard */,
 				7BD65D7B1CDD0B5B00C2B1BC /* Info.plist */,
 				7BD65D731CDD0B5B00C2B1BC /* funfactspractice.xcdatamodeld */,
@@ -121,6 +145,7 @@
 			isa = PBXGroup;
 			children = (
 				7BD65D681CDD0B5B00C2B1BC /* main.m */,
+				7BD4A3041CDD4D3000516B98 /* Assets.xcassets */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -247,7 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7BD65D7A1CDD0B5B00C2B1BC /* LaunchScreen.storyboard in Resources */,
-				7BD65D771CDD0B5B00C2B1BC /* Assets.xcassets in Resources */,
+				7BD4A3051CDD4D3000516B98 /* Assets.xcassets in Resources */,
 				7BD65D721CDD0B5B00C2B1BC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,9 +298,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7BD65D6F1CDD0B5B00C2B1BC /* ViewController.m in Sources */,
 				7BD65D6C1CDD0B5B00C2B1BC /* AppDelegate.m in Sources */,
+				7BD65DAB1CDD464300C2B1BC /* countryTableViewCell.m in Sources */,
 				7BD65D751CDD0B5B00C2B1BC /* funfactspractice.xcdatamodeld in Sources */,
+				7B0340941CE29CE20024184C /* countryViewController.m in Sources */,
+				7B0340911CE2510C0024184C /* MainViewController.m in Sources */,
+				7BC0A2281CE3B947005FB0E6 /* mapsViewController.m in Sources */,
+				7BC0A2251CE3B3BD005FB0E6 /* exploreTableViewController.m in Sources */,
+				7BD65D9F1CDD0DBD00C2B1BC /* ENWCountries.m in Sources */,
 				7BD65D691CDD0B5B00C2B1BC /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -500,6 +530,7 @@
 				7BD65D961CDD0B5B00C2B1BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7BD65D971CDD0B5B00C2B1BC /* Build configuration list for PBXNativeTarget "funfactspracticeTests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +539,7 @@
 				7BD65D991CDD0B5B00C2B1BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7BD65D9A1CDD0B5B00C2B1BC /* Build configuration list for PBXNativeTarget "funfactspracticeUITests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +548,7 @@
 				7BD65D9C1CDD0B5B00C2B1BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

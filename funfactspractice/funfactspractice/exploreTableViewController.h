@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface exploreTableViewController : UITableViewController
+@property (strong, nonatomic) NSArray *arrayOfStats;
 
 @end

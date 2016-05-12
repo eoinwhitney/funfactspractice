@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface mapsViewController : UIViewController
+@property (strong, nonatomic) UIImage *map;
+
 
 @end
